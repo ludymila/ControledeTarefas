@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Controle de Tarefas</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Bem vindo!</string>
+    <string name="title_activity_listar_usuarios">ListarUsuariosActivity</string>
+    <string name="title_activity_listar_atividades">ListarAtividadesActivity</string>
+    <string name="efetuar_logon">Efetuar Logon</string>
+    <string name="texto_cadastrar">Para cadastrar novo usuario, acesse o MENU</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="aluno">Aluno</string>
+    <string name="pais">Pais</string>
+    <string name="professor">Professor</string>
+    <string name="entrar">Entrar</string>
+    <string name="icomp">Icomp</string>
+    <string name="sobre">Sobre</string>
+    <string name="descricao">Descricao</string>
+    <string name="prioridade">Prioridade</string>
+    <string name="dataEntrega">Data de Entrega</string>
+    <string name="dataRealizacao">Data de Realizacao</string>
+    <string name="nota">Nota</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="configs">Congiguracoes</string>
+    <string name="title_activity_bem_vindo">Controle de Tarefas- Bem Vindo</string>
+    <string name="title_activity_novo_usuario">Novo_usuario</string>
+    <string name="acessarTarefas">Acessar Tarefas</string>
+    <string name="verUsuarios">Ver Usuarios</string>
+    <string name="title_activity_cria_atividade">CriaAtividadeActivity</string>
+
+</resources>

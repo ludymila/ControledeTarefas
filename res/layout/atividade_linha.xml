@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     <TextView
+        android:id="@+id/atividade_linha_descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="29dp"
+         android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:text="" />
+
+    <TextView
+        android:id="@+id/atividade_linha_prioridade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/atividade_linha_descricao"
+        android:layout_below="@+id/atividade_linha_descricao"       
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:text="" />
+     
+     <TextView
+        android:id="@+id/atividade_linha_dataEntrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/atividade_linha_prioridade"
+        android:layout_below="@+id/atividade_linha_prioridade"       
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:text="" />
+
+    <TextView
+        android:id="@+id/atividade_linha_dataRealizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/atividade_linha_dataEntrega"
+        android:layout_below="@+id/atividade_linha_dataEntrega"
+    
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:text="" />
+    
+     <TextView
+        android:id="@+id/atividade_linha_disciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/atividade_linha_dataRealizacao"
+        android:layout_below="@+id/atividade_linha_dataRealizacao"
+    
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:text="" />
+     
+     <TextView
+        android:id="@+id/atividade_linha_nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/atividade_linha_disciplina"
+        android:layout_below="@+id/atividade_linha_disciplina"
+    
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:text="" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:minWidth="50dp"
+        android:text="Apagar" />
+
+</RelativeLayout>
